@@ -579,8 +579,8 @@ footer .content-wrapper .flex-box .social .media li a i{
   .about .section-1  .content-wrapper .flex-box p{
     width: 45%;
   }
-  .about .section-2{
-   
+  .about .section-2 figure{
+    height: 21.875rem;
   }
   .about .section-3 h2{
     padding-bottom: 0rem;
@@ -742,8 +742,8 @@ footer .content-wrapper .flex-box .social .media li a i{
   .about .section-1  .content-wrapper .flex-box p{
     width: 45%;
   }
-  .about #map{
-    
+  .about #map figure{
+    height: 28.125rem;
   }
   .about .section-3 h2{
     padding-bottom: 0rem;
