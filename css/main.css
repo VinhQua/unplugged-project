@@ -299,6 +299,27 @@ footer .content-wrapper .flex-box .social .media li a i{
   background:#202322 ;
   font-weight: 500;
 }
+/*-------------------------------------About Page--------------------------------------*/
+.section-1{
+  padding:3.125rem 0 ;
+  background-color:#527158 ;
+}
+.section-1  .content-wrapper h2{
+  margin: 1.25rem 0;
+}
+.section-1 .content-wrapper .flex-box p{
+  margin-bottom: 1.875rem;
+}
+/*--------------Map--------------*/
+
+
+.section-3 h2{
+  padding-bottom: 0rem;
+}
+.section-3 .content-wrapper .flex-box h4{
+  padding: 1.25rem 0;
+}
+
   /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -431,6 +452,7 @@ footer .content-wrapper .flex-box .social .media li a i{
     padding: 0;
     margin-left: 0;
     height: fit-content;
+    border: none;
   }
   .section-1 .slogan{
     height: 37.5rem;
@@ -508,12 +530,41 @@ footer .content-wrapper .flex-box .social .media li a i{
   footer h4{
     padding-bottom: 2.5rem;
   }
+  /*---------------About Page-------------------*/
+
+  .section-1  .content-wrapper .flex-box{
+    padding: 1.25rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-1  .content-wrapper .flex-box p{
+    width: 45%;
+  }
+  .section-2{
+    height: 21.875rem;
+  }
+  .section-3 h2{
+    padding-bottom: 0rem;
+  }
+  .section-3 .content-wrapper .flex-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  /*---------------FAQ Page-------------------*/
+  .faq h4
+  .faq p{
+    font-size: .875rem;
+    line-height: .984rem;
+  } 
 }
+
 /*-------For Desktop Screen 1200px Or Wider--------*/
-@media (min-width: 1200px) {
+
+@media (min-width: 1200px ) {
   h1{
     font-size: 3.75rem;
-    line-height: 3rem;
+    line-height:3rem;
   }
   h2{
     font-size: 2.25rem;
@@ -556,6 +607,7 @@ footer .content-wrapper .flex-box .social .media li a i{
     padding: 0;
     margin-left: 0;
     height: fit-content;
+    border: none;
   }
   .section-1 .slogan{
     height: 37.5rem;
@@ -629,6 +681,33 @@ footer .content-wrapper .flex-box .social .media li a i{
   footer h4{
     padding-bottom: 2.5rem;
   }
+  /*----------------------About Page------------*/
+  .section-1  .content-wrapper .flex-box{
+    padding: 1.25rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-1  .content-wrapper .flex-box p{
+    width: 45%;
+  }
+  .section-2{
+    height: 28.125rem;
+  }
+  .section-3 h2{
+    padding-bottom: 0rem;
+  }
+  .section-3 .content-wrapper .flex-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  /*----------------------FAQ Page------------*/
+  .faq h4
+  .faq p{
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+  } 
+}
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
