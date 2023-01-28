@@ -301,6 +301,7 @@ footer .content-wrapper .flex-box .social .media li a i{
   font-weight: 500;
 }
 /*-------------------------------------About Page--------------------------------------*/
+
 .about .section-1{
   padding:3.125rem 0 ;
   background-color:#527158 ;
@@ -490,7 +491,6 @@ footer .content-wrapper .flex-box .social .media li a i{
   }
   .section-2{
     padding: 6.25rem 0;
-   
   }
   .section-2 .services{
     width: 30%;
@@ -554,21 +554,21 @@ footer .content-wrapper .flex-box .social .media li a i{
   }
   /*---------------About Page-------------------*/
 
-  .section-1  .content-wrapper .flex-box{
+  .about .section-1  .content-wrapper .flex-box{
     padding: 1.25rem 0;
     display: flex;
     justify-content: space-between;
   }
-  .section-1  .content-wrapper .flex-box p{
+  .about .section-1  .content-wrapper .flex-box p{
     width: 45%;
   }
-  .section-2{
+  .about .section-2{
     height: 21.875rem;
   }
-  .section-3 h2{
+  .about .section-3 h2{
     padding-bottom: 0rem;
   }
-  .section-3 .content-wrapper .flex-box{
+  .about .section-3 .content-wrapper .flex-box{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -717,21 +717,21 @@ footer .content-wrapper .flex-box .social .media li a i{
     padding-bottom: 2.5rem;
   }
   /*----------------------About Page------------*/
-  .section-1  .content-wrapper .flex-box{
+  .about .section-1  .content-wrapper .flex-box{
     padding: 1.25rem 0;
     display: flex;
     justify-content: space-between;
   }
-  .section-1  .content-wrapper .flex-box p{
+  .about .section-1  .content-wrapper .flex-box p{
     width: 45%;
   }
-  .section-2{
+  .about .section-2{
     height: 28.125rem;
   }
-  .section-3 h2{
+  .about .section-3 h2{
     padding-bottom: 0rem;
   }
-  .section-3 .content-wrapper .flex-box{
+  .about .section-3 .content-wrapper .flex-box{
     width: 100%;
     display: flex;
     justify-content: space-between;
