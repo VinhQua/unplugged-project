@@ -174,6 +174,7 @@ header nav ul li a{
   background-size:cover;
   border-top:.1rem solid grey ;
   border-bottom:.1rem solid gray ;
+
 }
 
 .section-1 .join-in{
@@ -300,14 +301,14 @@ footer .content-wrapper .flex-box .social .media li a i{
   font-weight: 500;
 }
 /*-------------------------------------About Page--------------------------------------*/
-.section-1{
+.about .section-1{
   padding:3.125rem 0 ;
   background-color:#527158 ;
 }
-.section-1  .content-wrapper h2{
+.about .section-1  .content-wrapper h2{
   margin: 1.25rem 0;
 }
-.section-1 .content-wrapper .flex-box p{
+.about .section-1 .content-wrapper .flex-box p{
   margin-bottom: 1.875rem;
 }
 /*--------------Map--------------*/
@@ -318,6 +319,26 @@ footer .content-wrapper .flex-box .social .media li a i{
 }
 .section-3 .content-wrapper .flex-box h4{
   padding: 1.25rem 0;
+}
+/*-------------------------------------FAQ Page--------------------------------------*/
+.faq .section-1{
+  padding: 3.125rem 0;
+  background-color:#527158 ;
+}
+.faq .section-1 .content-wrapper h2{
+  margin: 0;
+  padding-bottom:2.5rem ;
+}
+.faq .section-1 .content-wrapper .flex-box .question h4{
+  padding-bottom: 1rem;
+  width: 100%;
+}
+.faq .section-1 .content-wrapper .flex-box .question p{
+  width: 100%;
+}
+.faq .section-1 .content-wrapper .flex-box .middle-question {
+  padding-bottom: 3.125rem;
+  margin: 0;
 }
 
   /* ==========================================================================
@@ -513,6 +534,7 @@ footer .content-wrapper .flex-box .social .media li a i{
   footer .content-wrapper{
     padding: 6.25rem 0;
   }
+
   footer .content-wrapper .flex-box{
     display: flex;
     justify-content: space-around;
@@ -557,6 +579,19 @@ footer .content-wrapper .flex-box .social .media li a i{
     font-size: .875rem;
     line-height: .984rem;
   } 
+  .faq .section-1 .content-wrapper .flex-box {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+  .faq .section-1{
+    padding-bottom: 0;
+  }
+  .faq .section-1 .content-wrapper .flex-box .question{
+    width: 47%;
+    padding-top: 1rem;
+  }
+
 }
 
 /*-------For Desktop Screen 1200px Or Wider--------*/
@@ -702,11 +737,24 @@ footer .content-wrapper .flex-box .social .media li a i{
     justify-content: space-between;
   }
   /*----------------------FAQ Page------------*/
+
   .faq h4
   .faq p{
     font-size: 1.125rem;
     line-height: 1.125rem;
   } 
+  .faq .section-1 .content-wrapper .flex-box {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+  .faq .section-1{
+    padding-bottom: 0;
+  }
+  .faq .section-1 .content-wrapper .flex-box .question{
+    width: 47%;
+    padding-top: 1rem;
+  }
 }
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
