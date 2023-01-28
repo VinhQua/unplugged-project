@@ -15,7 +15,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -23,9 +23,111 @@
 </head>
 
 <body>
+  <!--Header Starts-->
+  <header class="flex-box">
+    <figure>
+      <a href="#"><img src="doc/unpluggedlogo.png" alt="unplugged logo">UNPlUGGED</a>
+    </figure>
+    <nav>
+      <ul>
+        <li><a href="faq/index.html">FAQ</a></li>
+        <li><a href="about/index.html">ABOUT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--Main Starts-->
+  <main>
+    <section class="section-1">
+      <article class="slogan">
+        <h1>Retreat from the desk, return refreshed.</h1>
+      </article>
+      <article class="join-in flex-box">
+        <div class="message">
+          <h3>Want to join the next retreat?</h3>
+          <p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
+        </div>  
+        <form action="">
+          <h3>Find out more</h3>
+          <input type="email" id="email" placeholder="name@email.com" required> <br>
+          <button type="submit">Download Itinerary</button>
+        </form>
+        
+        
+      </article>
+    </section>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+    <section class="section-2">
+      <h2>Have the work week you always dreamed of — without the bad wifi.</h2>
+      
+      <div class="flex-box">
+        <article class="services">
+          <div class="icons"><i class="fa-regular fa-triangle"></i></div>
+          <p>Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
+        </article>
+
+        <article class="services">
+          <div class="icons"><i class="fa-solid fa-bed"></i></div>
+          <p>12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.</p>
+        </article>
+
+        <article class="services">
+          <div class="icons"><i class="fa-solid fa-utensils"></i></div>
+          <p>Private chef team providing on demand meals - just like your team kitchen.</p>
+        </article>
+
+        <article class="services">
+          <div class="icons"><i class="fa-solid fa-shoe-prints"></i></div>
+          <p>5 outdoor obstacle courses, including private beach ½ mile from bungalow.</p>
+        </article>
+
+        <article class="services">
+          <div class="icons"><i class="fa-solid fa-face-smile"></i></div>
+          <p>Retreat facilitator to manage your day to day activities so you all get a chance to reset.</p>
+        </article>
+
+        <article class="services">
+          <div class="icons"><i class="fa-solid fa-wifi"></i></div>
+          <p>Dedicated computer room for times that you must wifi.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-3">
+      <h2>Be a better team in 5 days, like this one.</h2>
+      <article class="flex-box">
+        <img src="doc/unplugged-retreat-lacrue.jpg" alt="">
+        <div class="description">
+          <h3>LaCrue Bottling Co. <br>
+            October 2018
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+        </div>
+      </article>
+    </section>
+  </main>
+  <!--Footer Starts-->
+  <footer id="contact">
+    <div class="flex-box">
+      <article class="info">
+        <h4>Contact</h4>
+        <p>555-555-5555 <br>
+          hello@unplugged.com
+          </p>
+      </article>
+
+      <article class="social">
+        <h4>Social</h4>
+        <ul class="flex-box">
+          <li><a href="https://www.facebook.com/profile.php?id=100063709823543"><i class="fa-brands fa-square-facebook"></i></a></li>
+          <li><a href="https://twitter.com/William03277036"><i class="fa-brands fa-square-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a></li>
+        </ul>
+      </article>
+    </div>
+    <div>&copy; Copyright 202X | Unplugged</div>
+  </footer>
+
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
